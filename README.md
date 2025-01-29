@@ -52,6 +52,8 @@ Aim of project :  we will equipped knowledge on kubernetes tech. following topic
 
     5. delete pod
    
+        kubectl delete pod dynamics-5787c64dbf-5tbdm
+   
      ![image](https://github.com/user-attachments/assets/9a06060b-c5a3-4dec-ae4c-a699ea429a46)
 
 
@@ -63,8 +65,11 @@ Aim of project :  we will equipped knowledge on kubernetes tech. following topic
 
   6. as one pod is deleted the kubelet  will creates new pod as in replica mentioned replicas=1  wenever we delete pod atleast minimun  1 pod will be running in
          the cluster ( minikube )  hence the kubernetes solved auto- healing issue here.
+     
+     
 
- 
+                           ![image](https://github.com/user-attachments/assets/28974d86-c60b-4e74-be02-c9b1e9b399fc)
+
 
      
 
