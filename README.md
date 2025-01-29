@@ -36,4 +36,19 @@ Aim of project :  we will equipped knowledge on kubernetes tech. following topic
 
 
 
+    3.  create a new deploymwnt inside minikube cluster ( file has everything pod creation replica set creation using image added in file ) 
+
+         kubectl apply -f f:/deployment.yml
+
+
+    4. view created deployments
+   
+       ![image](https://github.com/user-attachments/assets/4358c428-b9fc-4d62-9035-640071823cb9)
+
+
+      ![image](https://github.com/user-attachments/assets/938c5ba7-96ff-4dca-a688-a9a8666e028c)
+ 
+
+     
+
 
