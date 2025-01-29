@@ -70,8 +70,7 @@ Aim of project :  we will equipped knowledge on kubernetes tech. following topic
      
      
      
-
- ![image](https://github.com/user-attachments/assets/28974d86-c60b-4e74-be02-c9b1e9b399fc)
+  🎉🎉🎉🎉🎉🎉 happy learning ! 
 
 
      
