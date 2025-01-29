@@ -20,15 +20,19 @@ step2 : Apply the service under tis node, in order to expose tis container to ou
 step3: Access the Application ,Get the URL to access the Nginx web server
 
 
-![image](https://github.com/user-attachments/assets/02c68aef-fb50-4ec8-b4a2-bd78564d551a)
+![image](https://github.com/user-attachments/assets/81668b0d-87e6-4e43-9338-c9d1989a2782)
+
+
+
+
 
 
 step5: open url in browser to access app .
 
 
-![Uploading image.png…]()
 
 
+![image](https://github.com/user-attachments/assets/02c68aef-fb50-4ec8-b4a2-bd78564d551a)
 
 
 
