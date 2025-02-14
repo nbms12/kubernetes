@@ -12,7 +12,7 @@ There are three different ways to identify target endpoints:
 
 
 
-first lets create a two pods 
+4) first lets create a two pods 
 
 kubectl run qa-pod --image nginx:latest -l app=qa-pod 
 
@@ -30,6 +30,20 @@ now lets see communication of qa-pod to db-pod,
 
 
 they are talkin each other. our aim is to build security wall against db-pod who are in access by qa-pod. 
+
+
+5) apply and create network policy for db-pod in cluster to avaoid traffic into it.
+
+   
+![image](https://github.com/user-attachments/assets/b3e1c9da-68d4-42b2-9004-80ee581972f7)
+
+6) run db-pod inside qa-pod to test
+
+   ![image](https://github.com/user-attachments/assets/11424397-fef3-4e57-bc66-b1f9547a2019)
+
+
+   congrats , we have secured our pod to direct entrnace of any pods into our db-pod , avoiding potential security threats.
+
 
 
 
