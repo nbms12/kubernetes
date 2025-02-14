@@ -5,5 +5,7 @@ Network Policies are a mechanism for controlling network traffic flow in Kuberne
 There are three different ways to identify target endpoints:
 
 1.Specific Pods (Pods matching a label are allowed)
+
 2.Specific Namespaces (all Pods in the namespace are allowed)
+
 3.IP address blocks (endpoints with an IP address in the block are allowed)
