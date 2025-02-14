@@ -54,16 +54,16 @@ they are talkin each other. our aim is to build security wall against db-pod who
 
 8) let's create a network policy allows only dev-pod, for both ingress and egress policy type we allow dev-pod only . 
 
-   ingress:
-    - from:
-      - podSelector:
-          matchLabels:
-            app: pod1
-  egress:
-    - to:
-      - podSelector:
-          matchLabels:
-            app: pod1
+![image](https://github.com/user-attachments/assets/f22855f5-7a50-4d4c-b76d-498de1bdf668)
+
+
+![image](https://github.com/user-attachments/assets/44e57bd9-dbe6-4d4b-8b08-7664f858c71f)
+
+
+
+congrats ! we secured pods and improved security of applications entring unknown access.
+
+
 
 
 
