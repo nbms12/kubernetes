@@ -45,6 +45,9 @@ they are talkin each other. our aim is to build security wall against db-pod who
    congrats , we have secured our pod to direct entrnace of any pods into our db-pod , avoiding potential security threats.
 
 
+7) lets create a new pod called dev-pod were 
+
+
 
 
 
