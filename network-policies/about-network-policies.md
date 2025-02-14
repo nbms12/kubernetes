@@ -45,7 +45,26 @@ they are talkin each other. our aim is to build security wall against db-pod who
    congrats , we have secured our pod to direct entrnace of any pods into our db-pod , avoiding potential security threats.
 
 
-7) lets create a new pod called dev-pod were 
+7) lets create a new pod called dev-pod, but we should allow only dev-pod except rest of pods in cluter we must deny traffic.
+
+
+   ![image](https://github.com/user-attachments/assets/93cb7557-f051-40f9-8c8e-a88d06748221)
+
+
+
+8) let's create a network policy allows only dev-pod, for both ingress and egress policy type we allow dev-pod only . 
+
+   ingress:
+    - from:
+      - podSelector:
+          matchLabels:
+            app: pod1
+  egress:
+    - to:
+      - podSelector:
+          matchLabels:
+            app: pod1
+
 
 
 
