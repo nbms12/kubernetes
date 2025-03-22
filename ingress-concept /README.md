@@ -26,4 +26,22 @@ a. apple-pod and with a service attached to it.
 b. banana-pod and with a service attached to it. 
 
 
+4. create Ingress
+   
+![image](https://github.com/user-attachments/assets/75bf196c-5d43-49de-8131-ecfadc48f8a8)
+
+
+5. route to apple and banana service with respective paths
+
+   ![image](https://github.com/user-attachments/assets/873a213d-3639-4657-b10f-f4c124120bb7)
+
+
+
+   ![image](https://github.com/user-attachments/assets/e79decc0-c997-4a7b-b13e-be2478dbbcd1)
+
+
+
+   
+
+
 
