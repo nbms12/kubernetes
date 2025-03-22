@@ -1,0 +1,8 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: test-cm
+data:
+  welcome_message: "Hello, this is manju from Kubernetes! message ConfigMap!"
+  db-port: "9993"
+  type : independentPod
