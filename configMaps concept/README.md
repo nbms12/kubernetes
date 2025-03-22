@@ -16,6 +16,6 @@ pod3 created .
 ![image](https://github.com/user-attachments/assets/04f8d3f5-a3a2-4929-a824-b6b4483367bd)
 
 
-tested data properties and used in pod3 as an ENV vairable
+tested data properties and used in pod3 as an ENV vairable, greetings as variable and values is coming from configmap data. 
 
 ![image](https://github.com/user-attachments/assets/c0cc136c-f26d-4599-a013-d6f27ed146ab)
